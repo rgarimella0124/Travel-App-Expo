@@ -104,7 +104,7 @@ class Article extends Component {
 
   static navigationOptions = ({ navigation }) => {
     return {
-      header: (
+      header: () => (
         <View style={[styles.flex, styles.row, styles.header]}>
           <TouchableOpacity
             style={styles.back}

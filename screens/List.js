@@ -223,7 +223,7 @@ class Articles extends Component {
   scrollX = new Animated.Value(0);
 
   static navigationOptions = {
-    header: (
+    header: () => (
       <View style={[styles.flex, styles.row, styles.header]}>
         <View>
           <Text style={{ color: theme.colors.caption }}>Search for place</Text>
